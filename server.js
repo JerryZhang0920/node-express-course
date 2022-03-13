@@ -21,6 +21,7 @@ app.get('/users/:id',function(req,res){
         user: req.params.id
     })
 })
+// server running
 
 app.listen(8000,function(){
     console.log("server is running")
